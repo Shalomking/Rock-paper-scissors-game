@@ -1,0 +1,242 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-img {
+    background-image: url("scrapper\ 1.jpeg");
+    background-color: aliceblue;
+    background-origin: content-box;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+   
+   
+}
+
+.button {
+background-color: rgb(97, 4, 92);
+color: white;
+border: 2px solid rgba(236, 213, 213, 0.603)
+border-radius: 8px
+box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 14px 40px;
+text-align: center;
+width: 250px;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+}
+
+
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5cm;
+    color: blue;
+    text text-decoration: none;
+}
+
+.main nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(255, 255, 255, .3);
+    overflow: hidden; /* Style the top navigation bar */
+    background-color: #333; /* Dark background color */
+    color: white;
+}
+
+.main-nav li {
+    padding: 0 5%;
+    overflow: hidden; /* Style the top navigation bar */
+    background-color: rgb(104, 104, 104); /* Dark background color */
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text colour */
+    text-align: center; /* center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+float: right; /* Float a link to the right*/
+}
+
+/* Change color on house/mouse-over */
+
+.nav a:hover {
+    background-color:  #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
+
+
+
+.main header {
+    background-color: aliceblue;
+    background-image: url("cool image(37).jpg");
+    background-size: auto;
+    padding-bottom: 30px;
+}
+
+.org-name {
+text-align: center;
+margin: 0;
+font-size: 4em;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.org-name-large {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(99, 4, 51);
+}
+
+.logo{
+    color: rgb(99, 4, 51);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+
+.home-content-section {
+    margin: 1em;
+    color: rgb(99, 4, 51);
+}
+
+.form-box {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: normal;
+color: rgb(116, 8, 8);
+}
+
+.img {
+    border: 1px solid rgb(95, 7, 107);
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgb(146, 144, 144);
+}
+
+<a href="_DSC4357 - Copy.JPG">
+<img src="_DSC4357 - Copy.JPG" alt="my image">
+</a>
+
+.button {
+    text-align:center;
+}
+/*style inputs with type="text", select elements^/
+input[type=text], select {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid white; /* Grey border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom Margin */
+    resize: :vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+    background-color: aliceblue;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+}
+
+* {box-sizing: border-box;}
+/* Add padding to containers */
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button*/
+.registerbtn {
+    background-color: #014e32;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+ a {
+     color: dodgerblue;
+ }
+
+ /* Set a grey background color and center the text of the "sign in" section*/
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
